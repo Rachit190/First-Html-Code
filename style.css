@@ -1,6 +1,8 @@
-style>
-
-	*{margin: 0; padding: 0;}
+h1 {text-align: center;}
+body h1 {
+  color: yellow;
+}
+*{margin: 0; padding: 0;}
 
     .centerdiv{
     	height: 100vh;
@@ -30,4 +32,15 @@ style>
     .fa-youtube{
     	color: #e84118;
     }
-     </style>
+    .fa-instragram{
+        color: #e84393
+    }
+h2 {
+  color: red;
+}
+h3 {
+  color: blue;
+}
+body {
+  background-color: pink;
+  }
