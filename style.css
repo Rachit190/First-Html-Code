@@ -1,46 +1,56 @@
-h1 {text-align: center;}
-body h1 {
-  color: yellow;
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(pngtree-ppt-minimalistic-geometric-background-backgroundppt-template-backgroundsimplecool-image_54790.jpg);
+	background-size: cover;
+	background-position: center;
 }
-*{margin: 0; padding: 0;}
 
-    .centerdiv{
-    	height: 100vh;
-    	display: flex;
-    	justify-content: center;
-    	align-items: center;
-    }
-
-    a{
-    	height: 100px;
-    	width: 100px;
-    	background-color: black;
-    	border-radius: 50px;
-    	text-align: center;
-    	margin: 10px;
-    	line-height: 110px;
-    	box-shadow: 1px 4px 2px red;
-    }	
-    a i {
-    	transition: all 0.3s linear;
-    }
-
-    a:hover i{
-    	transform: scale(1.4);
-    }
-
-    .fa-youtube{
-    	color: #e84118;
-    }
-    .fa-instragram{
-        color: #e84393
-    }
-h2 {
-  color: red;
+.Sign-up-form h1
+{
+	color: #1cbadb;
+	margin-bottom: 30px;	 
 }
-h3 {
-  color: blue;
+.input-box
+{
+	border-radius: 20px;
+	padding: 5px;
+	margin: 5px;
+	width: 99%;
+	border: 1px solid #999;
+	outline: none;
 }
-body {
-  background-color: pink;
-  }
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.sign-btn
+{
+	background-color: #ff00ff; 
+}
+.sign-btn:hover {
+  background-color: black;
+}
+a
+{
+	text-decoration: none;
+}
+hr
+{
+	margin-top: 20px;
+	width: 80%; 
+}
+img
+{
+	width: 70px
+	margin-top: -50px;
+}
